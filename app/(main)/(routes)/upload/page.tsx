@@ -59,7 +59,6 @@ const UploadPage = () => {
     } catch (error) {
       console.error("An error occurred:", error);
       setIsLoading(false);
-      // Handle error, show message to user, or any other necessary actions
     }
   };
   
