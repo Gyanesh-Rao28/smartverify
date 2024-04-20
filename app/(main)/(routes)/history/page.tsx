@@ -20,6 +20,9 @@ const ContractsPage = async () => {
     where: {
       profileId: profile?.id
     },
+    include:{
+      profile: true
+    }
   })
 
 
@@ -66,13 +69,13 @@ const ContractsPage = async () => {
                         />
                       </td>
                       <td className="px-6 py-4">{item.contractName}</td>
-                      <td className="px-6 py-4">{item.profileId}</td>
+                      <td className="px-6 py-4">{item.profile.name}</td>
                       <td className="px-6 py-4">
                         <ViewFileResult fileUrlId={item.id} />
                         {/* VIEW  */}
                       </td>
                       <td className="px-6 py-4 text-right">
-                        <DeleteFile fileUrlId={item.id} />
+                        <DeleteFile fileId={item.id} />
                       </td>
                     </tr>
                   ))}
