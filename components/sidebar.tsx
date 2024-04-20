@@ -1,4 +1,4 @@
-import React from 'react';
+import { SignOutButton } from '@clerk/nextjs';
 
 const Sidebar = () => {
      return (
@@ -13,9 +13,9 @@ const Sidebar = () => {
                     <a href="/history" className="block py-2.5 px-4 rounded transition duration-200 hover:bg-purple-700 hover:text-white">
                          Contracts
                     </a>
-                    <a href="/logout" className="block py-2.5 px-4 rounded transition duration-200 hover:bg-purple-700 hover:text-white">
-                         Logout
-                    </a>
+                    <div className="block py-2.5 px-4 rounded transition duration-200 hover:bg-purple-700 hover:text-white">
+                         <SignOutButton/>
+                    </div>
                </nav>
           </div>
      );

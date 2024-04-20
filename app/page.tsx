@@ -1,6 +1,7 @@
 
 import React from "react"
 import HeroMain from "@/components/hero/heroMain";
+import CredBtn from "@/components/hero/cred-btn";
 
 
 export default function Home() {
@@ -14,6 +15,9 @@ export default function Home() {
       </div>
 
       <HeroMain/>
+
+      <CredBtn/>
+
     </>
   );
 }
