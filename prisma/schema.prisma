@@ -1,0 +1,55 @@
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Profile {
+  id       String  @id @default(auto()) @map("_id") @db.ObjectId
+  userId   String  @unique
+  name     String
+  imageUrl String?
+  email    String
+
+  contract Contract[]
+  result Result[]
+
+  createdAt DateTime @default(now())
+}
+
+model Contract{
+  id       String  @id @default(auto()) @map("_id") @db.ObjectId
+
+  contractName String
+  contractFileUrl String
+  description String?
+  tag String?
+
+  profileId String @db.ObjectId
+  profile   Profile @relation(fields: [profileId], references: [id])
+
+  result Result[]
+
+  createdAt DateTime @default(now())
+}
+
+
+model Result{
+  id       String  @id @default(auto()) @map("_id") @db.ObjectId
+
+  DelegateCallVulnerability String
+  IntegerOverflowVulnerability String
+  ReentrancyVulnerability String
+  TimestampDependencyVulnerability String
+  
+  profileId String @db.ObjectId
+  profile   Profile @relation(fields: [profileId], references: [id])
+
+  contractId String @db.ObjectId
+  contract   Contract @relation(fields: [contractId], references: [id])
+
+  createdAt DateTime @default(now())
+}
