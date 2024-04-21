@@ -38,7 +38,7 @@ const UploadPage = () => {
 
   
       const res = await axios.post(
-          "https://d500-115-241-193-70.ngrok-free.app/check_vulnerabilities",
+        "https://b6c9-115-241-193-68.ngrok-free.app/check_vulnerabilities",
         {
           solidity_file_url: fileUpload.data.contractFileUrl,
           file_id: fileUpload.data.id,
