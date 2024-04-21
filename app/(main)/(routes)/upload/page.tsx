@@ -35,9 +35,10 @@ const UploadPage = () => {
   
       const fileUpload = await axios.post("/api/upload", formData);
       console.log("fileUpload: ", fileUpload);
+
   
       const res = await axios.post(
-        "https://7c04-115-241-193-69.ngrok-free.app/check_vulnerabilities",
+        process.env.NEXT_PUBLIC_MODEL_API_URL+"/check_vulnerabilities",
         {
           solidity_file_url: fileUpload.data.contractFileUrl,
           file_id: fileUpload.data.id,
@@ -61,6 +62,9 @@ const UploadPage = () => {
       setIsLoading(false);
     }
   };
+
+  // const url = process.env.NEXT_PUBLIC_MODEL_API_URL;
+  // console.log(url)
   
 
   return (

@@ -33,7 +33,7 @@ export const ScanResult = ({
     <div className="p-6 bg-gray-800 text-white rounded-lg shadow-lg">
       <div className="mb-6">
         <p className="text-lg font-semibold">Overall Risk Level</p>
-        <p className="text-lg text-blue-300 font-semibold">Low</p>
+        <p className="text-lg text-blue-300 font-semibold">MODERATE</p>
       </div>
 
       <div>
