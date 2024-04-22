@@ -4,10 +4,10 @@
 
 ## **Team Details**
 **N-Bytes**
-- Krish Srivastava    ([Github)](https://github.com/retr0-kernel/)
-- S. Gyanesh Rao      ([Github)](https://github.com/Gyanesh-Rao28)
-- Amrit Kumar Singha  ([Github)](https://github.com/Amrit-Kumar-Singha)
-- Aniruddha Dewangan  ([Github)](https://github.com/Ani-RudE)
+- Krish Srivastava    ([Github)](https://github.com/retr0-kernel/))
+- S. Gyanesh Rao      ([Github)](https://github.com/Gyanesh-Rao28))
+- Amrit Kumar Singha  ([Github)](https://github.com/Amrit-Kumar-Singha))
+- Aniruddha Dewangan  ([Github)](https://github.com/Ani-RudE))
 
 The increasing use of blockchain technologies highlights the importance of smart contract security. Recognizing this need, our team has developed a web application to examine and scan Solidity files, which are the foundation of Ethereum smart contracts. The web application ensures that the smart contracts are safe, effective and are scaleable, that is, keeping in mind the gas fees using a machine learning model.
 
