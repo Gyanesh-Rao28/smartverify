@@ -1,4 +1,4 @@
-<img src="[drawing.jpg](https://cdn.discordapp.com/attachments/1075621727004016721/1232023393944211476/logo.png?ex=66391633&is=6626a133&hm=ddc683698452ff6f5ef5d444d985c58cbffbaf4b31b2b4d042b7e55b1bd7e4dc&)" alt="Logo" width="200"/>
+<img src="https://cdn.discordapp.com/attachments/1075621727004016721/1232023393944211476/logo.png?ex=66391633&is=6626a133&hm=ddc683698452ff6f5ef5d444d985c58cbffbaf4b31b2b4d042b7e55b1bd7e4dc&" alt="Logo" width="200"/>
 
 ![Introduction](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2JtNjRmMmYwZnBzb2J0a3hxY3g1ZjZ3OTF0b216YTR0NWdtNTF6bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PWiW9Wq3BnlRLlJkDw/giphy.gif)
 
