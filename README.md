@@ -1,13 +1,15 @@
+![Logo](https://cdn.discordapp.com/attachments/1075621727004016721/1232023393944211476/logo.png?ex=66391633&is=6626a133&hm=ddc683698452ff6f5ef5d444d985c58cbffbaf4b31b2b4d042b7e55b1bd7e4dc&)
+
 ![Introduction](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2JtNjRmMmYwZnBzb2J0a3hxY3g1ZjZ3OTF0b216YTR0NWdtNTF6bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PWiW9Wq3BnlRLlJkDw/giphy.gif)
 
 [Project Link](https://github.com/Gyanesh-Rao28/smartverify)
 
 ## **Team Details**
 **N-Bytes**
-- Krish Srivastava    ([Github)](https://github.com/retr0-kernel/))
-- S. Gyanesh Rao      ([Github)](https://github.com/Gyanesh-Rao28))
-- Amrit Kumar Singha  ([Github)](https://github.com/Amrit-Kumar-Singha))
-- Aniruddha Dewangan  ([Github)](https://github.com/Ani-RudE))
+- Krish Srivastava    ([Github](https://github.com/retr0-kernel/))
+- S. Gyanesh Rao      ([Github](https://github.com/Gyanesh-Rao28))
+- Amrit Kumar Singha  ([Github](https://github.com/Amrit-Kumar-Singha))
+- Aniruddha Dewangan  ([Github](https://github.com/Ani-RudE))
 
 The increasing use of blockchain technologies highlights the importance of smart contract security. Recognizing this need, our team has developed a web application to examine and scan Solidity files, which are the foundation of Ethereum smart contracts. The web application ensures that the smart contracts are safe, effective and are scaleable, that is, keeping in mind the gas fees using a machine learning model.
 
@@ -54,19 +56,17 @@ When you upload a Solidity file through our Contract Upload Page, the backend ML
 - **ML Model:**  Built with PyTorch, utilizing transfer learning to efficiently identify vulnerabilities in Solidity files.
 - **Deployment:** Vercel, Ngrok
 
-![Intro](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/gnos6k0f9wrvdew1llj3.jpg)
+![Home-Page](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/gnos6k0f9wrvdew1llj3.jpg)
 
 
-![bleh](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ed8tg7esp03aif0dask8.jpg)
+![Upload-Page](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ed8tg7esp03aif0dask8.jpg)
 
 
-![la](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/f5aqm0qcntl1srm3gaae.jpg)
+![Contract-History](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/f5aqm0qcntl1srm3gaae.jpg)
 
 
+![Report](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/h7om00g5l9dz4zb6kfxz.jpg)
 
-
-
-![ja](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/h7om00g5l9dz4zb6kfxz.jpg)
 
 ## **Challenges Faced**
 
